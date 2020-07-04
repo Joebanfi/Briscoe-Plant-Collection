@@ -12,6 +12,7 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
     <title>Welcome | Briscoe Plant Collection</title>
   </head>
   <body id="home">
@@ -39,7 +40,9 @@
       <div class="prints-grid">
         <div class="box-1">
           <a href="img-page-1.html"
-            ><img src="./img/01_Briscoe_Collection_01_Hanging_Clips.jpg" alt=""
+            ><img
+              src="./img/img-page-1/01_Briscoe Collection 01_Hanging Clips.jpg"
+              alt=""
           /></a>
           <p>Collection 01 <span class="from-ten">from £10</span></p>
           <div class="price">
@@ -91,7 +94,7 @@
         <div class="box-1">
           <a href="img-page-4.html"
             ><img
-              src="./img/01_Briscoe_Hanging_Collection_01_Hanging Clips01.jpg"
+              src="./img/img-page-4/01_Briscoe Hanging Collection 01_Hanging Clips01.jpg"
               alt=""
           /></a>
           <p>Collection 04 <span class="from-ten">from £10</span></p>
@@ -104,7 +107,7 @@
         <div class="box-2">
           <a href="img-page-5.html"
             ><img
-              src="./img/01_Briscoe_Hanging_Collection_02_Hanging_Clips01.jpg"
+              src="./img/img-page-5/01_Briscoe Hanging Collection 02_Hanging Clips01.jpg"
               alt=""
           /></a>
           <p>Collection 05 <span class="from-ten">from £10</span></p>
@@ -219,10 +222,7 @@
       <div class="container">
         <div id="about-grid">
           <div class="about-box-1">
-            <img
-              src="./img/04_Briscoe_Colour_Collection_04_Picture_Frame_Cabinet_Catcus.jpg"
-              alt=""
-            />
+            <img src="./img/about.jpg" alt="" />
           </div>
           <div class="about-box-2">
             <div class="photo-btn">
@@ -275,14 +275,19 @@
     <!-- Contact -->
     <section id="contact">
       <div class="flex-container">
-        <form>
+        <form method="POST" data-netlify="true">
           <div>
             <label for="name"></label>
-            <input type="text" id="name" placeholder="Full name" />
+            <input type="text" name="name" id="name" placeholder="Full name" />
           </div>
           <div>
             <label for="email"></label>
-            <input type="email" id="email" placeholder="Enter your email..." />
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Enter your email..."
+            />
           </div>
           <div>
             <label for="message"></label>
